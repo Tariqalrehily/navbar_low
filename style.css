@@ -1,0 +1,298 @@
+/*************
+logo and contact header
+*****************/
+.container-logo{
+padding: 0;
+margin: 0;
+width: 100%;
+}
+.lowLogo > figure > img{
+display: block;
+margin: 25px auto;
+width: 150px;
+position: relative;
+}
+.lowContact {
+text-align: center;
+margin-bottom: 10px;
+}
+.lowContact > ul > li > a{
+color: #fa641c;
+font-size: 18px;
+text-decoration: none;
+margin-left: 5px;
+}
+.lowContact > ul > li > a >img{
+width: 20px;
+height: 20px;
+padding-right: 3px;
+}
+/*END header logo and contact */
+/*************************
+MAIN - NAVBAR
+***********************/
+.main_nav {
+background-color: #fa641c!important;
+border: none;
+font-family: 'Cairo', sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+.both_nav{
+padding: 0;
+margin: 0;
+font-size: 14px;
+text-decoration: none;
+list-style-type: none;
+border: none;
+}
+/*End NAVBAR*/
+/******************
+Get navbar tyle
+*******************/
+.getAQuote_dropdown {
+background-color: #fff;
+margin-top: 0;
+border: none;
+}
+.getAQuote_dropdown img{
+width: 45px;
+height: 43px;
+padding: 5px;
+margin-right: 20px;
+margin-top: 3px;
+}
+.getAQuote_dropdown ul li{
+display: block;
+background-color: #fff;
+padding: 8px;
+line-height: 2;
+}
+.get_nav_down  li  a{
+padding: 0 27px;
+margin-left: 47px;
+border-radius: 5px;
+color: #fff;
+background-color: #fa641c;
+font-size: 11px;
+transition: background-color .1s ease-in .1s;
+}
+.get_nav_down > li > a:hover {
+background-color: #a25403;
+cursor: pointer;
+text-decoration: none;
+}
+.get_button{
+display: block;
+background-color: #fa641c;
+margin-left: 10px;
+padding: 5px 10px;
+height: 55px;
+border-top: none;
+border-bottom: none;
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
+}
+.get_button:hover {
+background-color: #fff;
+}
+.get_button > a {
+font-size: 14px;
+font-family: 'Cairo-Regular', sans-serif;
+color: #fff;
+margin: 0;
+}
+.get_button a:hover {
+color: #fa641c;
+background-color: #fff;
+height: 59px;
+
+}
+/*******END********/
+
+/******************
+burger menu style
+*********************/
+.nav_beright{
+width: 100%;
+padding: 0;
+margin: 0;
+border: none;
+}
+.nav_beright ul li a {
+padding-left: 12px;
+}
+.nav_beright ul li a span {
+margin-right: 12px;
+}
+.nav_beright ul{
+list-style-type: none;
+}
+.nav_beright li a{
+padding-left: 2px;
+}
+.burger_drop_menu ul:hover {
+background-color: #fff;
+}
+.burger_drop_menu ul li{
+background-color: #fff;
+margin: 0;
+padding: 0;
+}
+.burger_drop_menu ul li:hover{
+background-color: #fff;
+color: #fa641c;
+}
+.burger_drop_menu ul{
+color: #fa641c;
+padding: 0;
+}
+.burger_drop_menu li{
+color: #fa641c;
+padding: 0;
+}
+.burger_drop_menu > li > a{
+color: #fff;
+line-height:  14px;
+margin: 0;
+padding: 12px 0;
+}
+.burger_drop_menu > li > a:focus {
+color: #fa641c;
+}
+.burger_drop_menu > li > ul > li {
+padding: 10px 1px;
+width: 100%;
+}
+.burger_menu span{
+background: #fff;
+padding:1.6px;
+margin-top: 2px;
+}
+.dropdown-toggle a {
+font-size: 16px;
+}
+
+i{
+border: solid #fa641c;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 3px;
+float: right;
+margin-top: 5px;
+}
+.arrow-right{
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.dropdown-menu img{
+margin-right: 5px;
+}
+
+/*End brger menu style */
+/*************************/
+
+
+/******************
+Media Query
+*******************/
+
+@media screen and (min-width: 768px) {
+.headerLogo_wrapper {
+position: relative;
+}
+.lowLogo {
+float: left;
+}
+.lowContact ul{
+position: absolute;
+top: 38%;
+right: 0%;
+}
+.lowContact ul > li >a{
+margin: 2px;
+font-size: 30px;
+}
+/*right burger navbar*/
+.nav_beright > ul  {
+float: right;
+border-bottom: none;
+}
+.nav_beright ul li ul li{
+width: 250px;
+opacity: .8;
+}
+.nav_beright ul li ul li:last-child {
+margin-right: 5px;
+}
+.burger_drop_menu ul li:hover{
+background-color: #fff;
+color: #fa641c;
+}
+.burger_drop_menu ul{
+color: #fa641c;
+padding: 0;
+}
+.burger_drop_menu > li > a{
+padding: 25px 10px;
+}
+.burger_drop_menu > li > a:hover{
+color: #fa641c;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+margin-top: 0;
+}
+
+li.dropdown:not(:first-child) .dropdown-menu {
+right: 0;
+left: auto;
+}
+/*End*/
+/*nav get bar*/
+.getAQuote_dropdown {
+width: 100%;
+}
+.get_nav_down {
+width: 100%;
+}
+.get_nav_down > li {
+width: 25%;
+height: 50%;
+display: inline-block;
+padding: 10px 5px;
+}
+.get_button{
+display: block;
+background-color: #fa641c;
+margin-left: 10px;
+padding: 5px 10px;
+height: 65px;
+}
+/*END*/
+}
+@media screen and (min-width: 1024px) {
+.container-logo{
+width: 100%;
+margin: auto;
+}
+.headerLogo_wrapper {
+margin:auto;
+position: relative;
+}
+.getAQuote_dropdown > li{
+background-color: #fff;
+opacity: 0.8;
+padding: 0;
+margin: 10PX;
+font-weight: normal;
+width: auto;
+text-align: left;
+display:inline;
+height: 120px;
+}
+.burger_drop_menu > li > a:focus,
+.burger_drop_menu > li > a:hover .open {
+display: block;
+}
+}
